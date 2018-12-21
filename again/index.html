@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <title>Stralk</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+  <body>
+    <nav class="navbar is-fixed-top normal" id="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <div class="navbar-item">
+          <img src="logo.png" id="logo">
+        </div>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true" style="color: white;"></span>
+          <span aria-hidden="true" style="color: white;"></span>
+          <span aria-hidden="true" style="color: white;"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a href="#home" id="nav-tabs" class="navbar-item nav-tabs">
+            Home
+          </a>
+
+          <a href="#problem" id="nav-tabs" class="navbar-item nav-tabs">
+            About Stralk
+          </a>
+
+          <a href="#howtouse" id="nav-tabs" class="navbar-item nav-tabs">
+            How to use
+          </a>
+
+          <a href="#texts" id="nav-tabs" class="navbar-item nav-tabs">
+            Texts
+          </a>
+
+          <a href="#contactus" id="nav-tabs" class="navbar-item nav-tabs">
+            Contact us
+          </a>
+
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero is-fullheight is-black">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title slide">
+            Welcome to Stralk!
+          </h1>
+          <h2 class="subtitle slide">
+            Please sign in or sign up
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="problem" class="hero is-medium" style="background-color: #0e0e0e;">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-two-thirds">
+              <h1 class="title" style="color: #753737; border-bottom: 5px dashed #753737;">
+                Problem
+              </h1>
+              <h2 class="subtitle has-text-justified" style="padding-left: 10px;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h2>
+            </div>
+            <div class="column">
+              <i class="icons fas fa-exclamation-circle" style="font-size: 200px; position: absolute; right: 0; color: #753737;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="whatisit" class="hero is-medium" style="background-color: #0e0e0e;">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <i class="icons fas fa-question-circle" style="font-size: 200px; position: absolute; left: 0; color: #376775;"></i>
+            </div>
+
+            <div class="column is-two-thirds">
+              <h1 class="title" style="color: #376775; border-bottom: 5px dashed #376775;">
+                What is it
+              </h1>
+              <h2 class="subtitle has-text-justified" style="padding-left: 10px;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="howtouse" class="hero is-large is-black" style="background-color: #0e0e0e;">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-centered">How to use</h1><hr>
+          <div class="columns">
+            <div class="column"><br>
+              <div class="box htu" style="background-color: #0e0e0e;" onMouseOver="imghover1()">
+                <article class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img src="pc.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p class="has-text-white">1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="box htu" style="background-color: #0e0e0e;" onMouseOver="imghover2()">
+                <article class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img src="pc.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p class="has-text-white">2. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="column" style="background-size: contain; background-repeat: no-repeat;">
+              <img src="mac1.png" id="img-howtouse">
+            </div>
+
+            <div class="column"><br>
+              <div class="box htu" style="background-color: #0e0e0e;" onMouseOver="imghover3()">
+                <article class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img src="pc.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p class="has-text-white">3. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="box htu" style="background-color: #0e0e0e;" onMouseOver="imghover4()">
+                <article class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img src="pc.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p class="has-text-white">4. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="texts" class="hero is-large is-black" style="background-color: #0e0e0e;">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title title-txt">Texts</h1><hr>
+
+          <div class="columns">
+            <div class="column">
+              <div class="card" style="background-color: #0e0e0e; border: 1px solid white;">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="text1.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <h1 class="title">In the market</h1>
+                    </div>
+                    <div class="media-content level-right">
+                      <a class="button is-link" href="#">Listen</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card" style="background-color: #0e0e0e; border: 1px solid white;">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="text2.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <h1 class="title">Car salon</h1>
+                    </div>
+                    <div class="media-content level-right">
+                      <a class="button is-link" href="#">Listen</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card" style="background-color: #0e0e0e; border: 1px solid white;">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="text3.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <h1 class="title">Garden</h1>
+                    </div>
+                    <div class="media-content level-right">
+                      <a class="button is-link" href="#">Listen</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="button is-large is-outlined is-danger load-more hide" href="txtpage-index.html">Load more...</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactus" class="hero is-large has-text-centered is-black">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns slideanim">
+            <div class="column">
+              <a href="#"><i class="fab fa-facebook icons2 contus"></i></a>
+              <p class="contus">facebook.com/stralk</p>
+            </div>
+            <div class="column">
+              <a href="#"><i class="fab fa-instagram icons2 contus"></i></a>
+              <p class="contus">instagram.com/stralk</p>
+            </div>
+            <div class="column">
+              <a href="#"><i class="far fa-envelope icons2 contus"></i></a>
+              <p class="contus">stralk@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" style="background-color: black;">
+      <div class="container">
+        <div class="content has-text-centered">
+          <span class="footer-text">Copyright © 2018 <a href="#">Stralk Inc.</a></span>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  	<script src="js/jquery.nicescroll.min.js"></script>
+  	<script src="main.js"></script>
+
+  </body>
+</html>

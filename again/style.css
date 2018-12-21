@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+nav.normal{
+  padding: 10px 100px;
+  background-color: transparent;
+  transition: 1s;
+}
+
+nav.black{
+  background-color: black;
+  transition: 1s;
+}
+
+nav .navbar-menu .navbar-end .nav-tabs{
+  color: white;
+}
+
+nav .navbar-menu .navbar-end .nav-tabs:hover{
+  text-shadow: 0 0 20px black;
+  color: white;
+  background-color: transparent;
+}
+
+@media screen and (max-width:1087px){
+  nav.normal{
+    padding: 0;
+  }
+
+  .nav-buttons{
+    color: black;
+  }
+
+  nav div.navbar-brand{
+    background-color: black;
+  }
+
+  nav div.navbar-menu.is-active{
+    background-color: black;
+  }
+}
+
+@media screen and (max-width:768px){
+  i.icons{
+    display: none;
+  }
+}
+
+.box.htu{
+  border: 1px solid #4a4a4a;
+  cursor: default;
+}
+
+.box.htu:hover{
+  cursor: pointer;
+  box-shadow: 6px 3px 20px black;
+}
+
+#home{
+  height: 110vh;
+  width: 100%;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #0e0e0e;
+  text-align: center;
+}
+
+#texts{
+  text-align: center;
+}
+
+#howtouse{
+  background-image: url(bg2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icons2{
+  font-size: 50px;
+}
+
+.contus:hover{
+  cursor: pointer;
+}
+
+#contactus{
+  background: #282828;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 500% 500%;
+  animation-name: Gradient;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes Gradient{
+  0%{
+    background-position: 0% 50%
+  }
+
+  50%{
+    background-position: 100% 50%
+  }
+
+  100%{
+    background-position: 0% 50%
+  }
+}
